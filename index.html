@@ -1,5 +1,46 @@
 <html>
+  <style type="text/css">
+    body {
+      background: lightgrey
+    }
+
+    div {
+      height: 10em;
+      position: relative; 
+      margin: 0;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%) 
+    }
+    
+    div p {
+      text-align: center;
+    }
+
+    div img {
+      padding: 5px 12px;
+    }
+
+    div input {
+      align-content: center;
+      padding: 5px 12px;
+      border-radius: 4px;
+      background-color: aqua;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+  </style>
+
   <title>All the best place to ski in Delaware!</title>
-  You could probably ski here:
-  <img src="./Brandywine_Creek_State_Park_farm.jpg"/>
+
+  <div>
+    <p>With a good tailwind, you might be able to ski here:</p>
+    <a href="https://www.destateparks.com/BrandywineCreek" target="_blank">
+      <img width="600" height="400" src="./1280px-Brandywine_Creek_State_Park_farm.jpg"/>
+    </a>
+    <br clear="all"/>
+    <input type="button" value="Login to shred the gnar."/>
+  </div>
+
 </html>
